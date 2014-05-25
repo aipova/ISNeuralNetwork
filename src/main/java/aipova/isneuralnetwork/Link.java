@@ -14,4 +14,10 @@ public class Link {
     double w;
     Neuron sourceNeuron;
     Neuron destNeuron;
+
+    public Link(double w, Neuron sourceNeuron, Neuron destNeuron) {
+        this.w = w;
+        this.sourceNeuron = sourceNeuron;
+        this.destNeuron = destNeuron;
+    }
 }
